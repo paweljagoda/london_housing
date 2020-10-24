@@ -23,3 +23,22 @@ unique_values =  {
 
 london_values = df[df['Area'].isin(unique_values)]
 
+mean_values = london_values.groupby(['Area']).mean() # collapsing the dataset into groups of boroughs and ther mean value over 20 years.
+
+mean_values['Value'] = mean_values.astype({'Value' : int}) # converting the mean house price into integers.
+
+import matplotlib as mlp
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots() # initialising figure object
+
+ax.set_xticklabels(mean_values.index,rotation=45, horizontalalignment = 'right', fontsize = '10')
+
+plt.ion() # allows interaction with terminal, otherwise suspended.
+
+plt.tight_layout() # ensures parts of the graph are not cut off, such as long names.
+
+plt.show() # shows the final plot.
+
+plt.savefig('bar_chart_mean_value.png') # saves the plot as a png file.
+
