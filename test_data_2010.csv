@@ -1,0 +1,136 @@
+,Code,Area,Year,Measure,Value
+2700,E09000001,City of London,Year ending Dec 2010,Median,450000
+2701,E09000002,Barking and Dagenham,Year ending Dec 2010,Median,170000
+2702,E09000003,Barnet,Year ending Dec 2010,Median,325000
+2703,E09000004,Bexley,Year ending Dec 2010,Median,215000
+2704,E09000005,Brent,Year ending Dec 2010,Median,283000
+2705,E09000006,Bromley,Year ending Dec 2010,Median,275000
+2706,E09000007,Camden,Year ending Dec 2010,Median,478500
+2707,E09000008,Croydon,Year ending Dec 2010,Median,220000
+2708,E09000009,Ealing,Year ending Dec 2010,Median,279275
+2709,E09000010,Enfield,Year ending Dec 2010,Median,241000
+2710,E09000011,Greenwich,Year ending Dec 2010,Median,245000
+2711,E09000012,Hackney,Year ending Dec 2010,Median,290500
+2712,E09000013,Hammersmith and Fulham,Year ending Dec 2010,Median,460000
+2713,E09000014,Haringey,Year ending Dec 2010,Median,290000
+2714,E09000015,Harrow,Year ending Dec 2010,Median,291000
+2715,E09000016,Havering,Year ending Dec 2010,Median,221000
+2716,E09000017,Hillingdon,Year ending Dec 2010,Median,249999
+2717,E09000018,Hounslow,Year ending Dec 2010,Median,249950
+2718,E09000019,Islington,Year ending Dec 2010,Median,387498
+2719,E09000020,Kensington and Chelsea,Year ending Dec 2010,Median,750000
+2720,E09000021,Kingston upon Thames,Year ending Dec 2010,Median,300000
+2721,E09000022,Lambeth,Year ending Dec 2010,Median,302000
+2722,E09000023,Lewisham,Year ending Dec 2010,Median,235000
+2723,E09000024,Merton,Year ending Dec 2010,Median,289000
+2724,E09000025,Newham,Year ending Dec 2010,Median,220000
+2725,E09000026,Redbridge,Year ending Dec 2010,Median,250000
+2726,E09000027,Richmond upon Thames,Year ending Dec 2010,Median,400000
+2727,E09000028,Southwark,Year ending Dec 2010,Median,314500
+2728,E09000029,Sutton,Year ending Dec 2010,Median,235000
+2729,E09000030,Tower Hamlets,Year ending Dec 2010,Median,305000
+2730,E09000031,Waltham Forest,Year ending Dec 2010,Median,230000
+2731,E09000032,Wandsworth,Year ending Dec 2010,Median,380000
+2732,E09000033,Westminster,Year ending Dec 2010,Median,580000
+2733,E12000001,North East,Year ending Dec 2010,Median,122000
+2734,E12000002,North West,Year ending Dec 2010,Median,130000
+2735,E12000003,Yorkshire And The Humber,Year ending Dec 2010,Median,135000
+2736,E12000004,East Midlands,Year ending Dec 2010,Median,139000
+2737,E12000005,West Midlands,Year ending Dec 2010,Median,147000
+2738,E12000006,East of England,Year ending Dec 2010,Median,195000
+2739,E12000007,London,Year ending Dec 2010,Median,287500
+2740,E12000008,South East,Year ending Dec 2010,Median,229000
+2741,E12000009,South West,Year ending Dec 2010,Median,190000
+2742,E92000001,England,Year ending Dec 2010,Median,185000
+2743,W92000048,Wales,Year ending Dec 2010,Median,134973
+2744,K04000045,England And Wales,Year ending Dec 2010,Median,182000
+6705,E09000001,City of London,Year ending Dec 2010,Mean,524581
+6706,E09000002,Barking and Dagenham,Year ending Dec 2010,Mean,179018
+6707,E09000003,Barnet,Year ending Dec 2010,Mean,444386
+6708,E09000004,Bexley,Year ending Dec 2010,Mean,226616
+6709,E09000005,Brent,Year ending Dec 2010,Mean,345055
+6710,E09000006,Bromley,Year ending Dec 2010,Mean,327306
+6711,E09000007,Camden,Year ending Dec 2010,Mean,716429
+6712,E09000008,Croydon,Year ending Dec 2010,Mean,254458
+6713,E09000009,Ealing,Year ending Dec 2010,Mean,350588
+6714,E09000010,Enfield,Year ending Dec 2010,Mean,284303
+6715,E09000011,Greenwich,Year ending Dec 2010,Mean,296528
+6716,E09000012,Hackney,Year ending Dec 2010,Mean,345288
+6717,E09000013,Hammersmith and Fulham,Year ending Dec 2010,Mean,622446
+6718,E09000014,Haringey,Year ending Dec 2010,Mean,395977
+6719,E09000015,Harrow,Year ending Dec 2010,Mean,331517
+6720,E09000016,Havering,Year ending Dec 2010,Mean,257191
+6721,E09000017,Hillingdon,Year ending Dec 2010,Mean,282348
+6722,E09000018,Hounslow,Year ending Dec 2010,Mean,342719
+6723,E09000019,Islington,Year ending Dec 2010,Mean,480212
+6724,E09000020,Kensington and Chelsea,Year ending Dec 2010,Mean,1256272
+6725,E09000021,Kingston upon Thames,Year ending Dec 2010,Mean,373249
+6726,E09000022,Lambeth,Year ending Dec 2010,Mean,366963
+6727,E09000023,Lewisham,Year ending Dec 2010,Mean,263878
+6728,E09000024,Merton,Year ending Dec 2010,Mean,433780
+6729,E09000025,Newham,Year ending Dec 2010,Mean,219872
+6730,E09000026,Redbridge,Year ending Dec 2010,Mean,286209
+6731,E09000027,Richmond upon Thames,Year ending Dec 2010,Mean,550796
+6732,E09000028,Southwark,Year ending Dec 2010,Mean,376688
+6733,E09000029,Sutton,Year ending Dec 2010,Mean,264951
+6734,E09000030,Tower Hamlets,Year ending Dec 2010,Mean,345385
+6735,E09000031,Waltham Forest,Year ending Dec 2010,Mean,236576
+6736,E09000032,Wandsworth,Year ending Dec 2010,Mean,493683
+6737,E09000033,Westminster,Year ending Dec 2010,Mean,823306
+6738,E12000001,North East,Year ending Dec 2010,Mean,143850
+6739,E12000002,North West,Year ending Dec 2010,Mean,159524
+6740,E12000003,Yorkshire And The Humber,Year ending Dec 2010,Mean,161184
+6741,E12000004,East Midlands,Year ending Dec 2010,Mean,164791
+6742,E12000005,West Midlands,Year ending Dec 2010,Mean,177929
+6743,E12000006,East of England,Year ending Dec 2010,Mean,237790
+6744,E12000007,London,Year ending Dec 2010,Mean,408107
+6745,E12000008,South East,Year ending Dec 2010,Mean,284693
+6746,E12000009,South West,Year ending Dec 2010,Mean,228632
+6747,E92000001,England,Year ending Dec 2010,Mean,239906
+6748,W92000048,Wales,Year ending Dec 2010,Mean,154801
+6749,K04000045,England And Wales,Year ending Dec 2010,Mean,235948
+10710,E09000001,City of London,Year ending Dec 2010,Sales,237
+10711,E09000002,Barking and Dagenham,Year ending Dec 2010,Sales,1459
+10712,E09000003,Barnet,Year ending Dec 2010,Sales,4209
+10713,E09000004,Bexley,Year ending Dec 2010,Sales,2478
+10714,E09000005,Brent,Year ending Dec 2010,Sales,2427
+10715,E09000006,Bromley,Year ending Dec 2010,Sales,4413
+10716,E09000007,Camden,Year ending Dec 2010,Sales,2769
+10717,E09000008,Croydon,Year ending Dec 2010,Sales,3643
+10718,E09000009,Ealing,Year ending Dec 2010,Sales,3213
+10719,E09000010,Enfield,Year ending Dec 2010,Sales,2910
+10720,E09000011,Greenwich,Year ending Dec 2010,Sales,2243
+10721,E09000012,Hackney,Year ending Dec 2010,Sales,2228
+10722,E09000013,Hammersmith and Fulham,Year ending Dec 2010,Sales,2508
+10723,E09000014,Haringey,Year ending Dec 2010,Sales,2347
+10724,E09000015,Harrow,Year ending Dec 2010,Sales,2263
+10725,E09000016,Havering,Year ending Dec 2010,Sales,2734
+10726,E09000017,Hillingdon,Year ending Dec 2010,Sales,3094
+10727,E09000018,Hounslow,Year ending Dec 2010,Sales,2476
+10728,E09000019,Islington,Year ending Dec 2010,Sales,2838
+10729,E09000020,Kensington and Chelsea,Year ending Dec 2010,Sales,2460
+10730,E09000021,Kingston upon Thames,Year ending Dec 2010,Sales,2355
+10731,E09000022,Lambeth,Year ending Dec 2010,Sales,3519
+10732,E09000023,Lewisham,Year ending Dec 2010,Sales,2818
+10733,E09000024,Merton,Year ending Dec 2010,Sales,2553
+10734,E09000025,Newham,Year ending Dec 2010,Sales,1693
+10735,E09000026,Redbridge,Year ending Dec 2010,Sales,2968
+10736,E09000027,Richmond upon Thames,Year ending Dec 2010,Sales,3217
+10737,E09000028,Southwark,Year ending Dec 2010,Sales,3333
+10738,E09000029,Sutton,Year ending Dec 2010,Sales,2377
+10739,E09000030,Tower Hamlets,Year ending Dec 2010,Sales,3788
+10740,E09000031,Waltham Forest,Year ending Dec 2010,Sales,2267
+10741,E09000032,Wandsworth,Year ending Dec 2010,Sales,5329
+10742,E09000033,Westminster,Year ending Dec 2010,Sales,3603
+10743,E12000001,North East,Year ending Dec 2010,Sales,25729
+10744,E12000002,North West,Year ending Dec 2010,Sales,71079
+10745,E12000003,Yorkshire And The Humber,Year ending Dec 2010,Sales,55025
+10746,E12000004,East Midlands,Year ending Dec 2010,Sales,54082
+10747,E12000005,West Midlands,Year ending Dec 2010,Sales,55476
+10748,E12000006,East of England,Year ending Dec 2010,Sales,79881
+10749,E12000007,London,Year ending Dec 2010,Sales,92769
+10750,E12000008,South East,Year ending Dec 2010,Sales,121540
+10751,E12000009,South West,Year ending Dec 2010,Sales,76360
+10752,E92000001,England,Year ending Dec 2010,Sales,631941
+10753,W92000048,Wales,Year ending Dec 2010,Sales,30822
+10754,K04000045,England And Wales,Year ending Dec 2010,Sales,662763

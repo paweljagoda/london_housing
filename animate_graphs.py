@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib as mlp
 import matplotlib.pyplot as plt
 import geopandas as gpd
-import os 
-from pathlib import Path 
+import os
+from pathlib import Path
 import numpy as np
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from matplotlib.ticker import StrMethodFormatter
@@ -18,7 +18,7 @@ import pylab as pl
 df = pd.read_csv('land-registry-house-prices-borough.csv', thousands=',')
 
 # generates unique values from the Area column.
-df.Area.unique() 
+df.Area.unique()
 
 # I had to manually deselect some of the areas outside of Greater London.
 unique_values =  {
@@ -49,10 +49,11 @@ london_geo_data = london_geo_data.rename(columns={'NAME': 'Area'})
 
 output_path = Path('maps')
 
-# define function which selects rows in December of a chosen year. 
-def by_year(df, year):
+# define function which selects rows in December of a chosen year.
+def filter_dataframe_by_year(df, year):
      query = f'Dec {year}'
-     return df[df['Year'].str.contains(query)]
+     filtered_dataframe = df[df['Year'].str.contains(query)]
+     return filtered_dataframe
 
 # selects all the mean house values
 mean_values = london_values[london_values['Measure'] == 'Mean']
@@ -63,23 +64,23 @@ mean_values = london_values[london_values['Measure'] == 'Mean']
 
 # generates a mean house value for a given year and saves it in the current directory
 for year in range(1995,2018):
-     by_year(mean_values, year).to_csv(f'mean_values_{year}.csv')
+     filter_dataframe_by_year(mean_values, year).to_csv(f'mean_values_{year}.csv')
 
 # list of generated datasets
 list_of_years = [
-"mean_values_1995.csv", 
-"mean_values_1996.csv", 
-"mean_values_1997.csv",                     
-"mean_values_1998.csv",                     
-"mean_values_1999.csv",                     
-"mean_values_2000.csv",                     
-"mean_values_2001.csv",                     
-"mean_values_2002.csv",                     
-"mean_values_2003.csv",                     
-"mean_values_2004.csv",                     
+"mean_values_1995.csv",
+"mean_values_1996.csv",
+"mean_values_1997.csv",
+"mean_values_1998.csv",
+"mean_values_1999.csv",
+"mean_values_2000.csv",
+"mean_values_2001.csv",
+"mean_values_2002.csv",
+"mean_values_2003.csv",
+"mean_values_2004.csv",
 "mean_values_2005.csv",
 "mean_values_2006.csv",
-"mean_values_2007.csv",                                                                                                       
+"mean_values_2007.csv",
 "mean_values_2008.csv",
 "mean_values_2009.csv",
 "mean_values_2010.csv",
@@ -96,7 +97,7 @@ vmin, vmax = 47528, 2092485
 
 # start the for loop to create one map per year
 def generate_plot_of_house_prices(year):
-    
+
     # load data for particular year
     df = pd.read_csv(year)
 
@@ -104,37 +105,37 @@ def generate_plot_of_house_prices(year):
     geo_year = london_geo_data.merge(df, left_on = 'Area', right_on = 'Area')
 
     # create map, added plt.Normalize to keep the legend range the same for all maps
-    fig = geo_year.plot(column='Value', 
-                        cmap='OrRd', 
-                        figsize=(15,10), 
-                        linewidth=0.8, 
-                        edgecolor='1', 
-                        vmin=vmin, 
-                        vmax=vmax, 
+    fig = geo_year.plot(column='Value',
+                        cmap='OrRd',
+                        figsize=(15,10),
+                        linewidth=0.8,
+                        edgecolor='1',
+                        vmin=vmin,
+                        vmax=vmax,
                         legend=True,
                         norm=plt.Normalize(vmin=vmin, vmax=vmax))
-    
+
     # Get colourbar from second axis and customise the legend ticks
     colourbar = fig.get_figure().get_axes()[1]
     yticks = np.arange(40000,2200000, 293500) # had to be fine-tuned.
     colourbar.set_yticklabels(['£{:,}'.format(ytick) for ytick in yticks])
-    
+
     # remove axis of chart
     fig.axis('off')
-    
+
     # add a title to map
     fig.set_title('House Prices in London', \
               fontdict={'fontsize': '25',
                          'fontweight' : '3'})
-    
+
     # create and position the Year annotation to the bottom left
-    only_year = year[12:-4]   
+    only_year = year[12:-4]
     fig.annotate(only_year,
             xy=(0.1, .225), xycoords='figure fraction',
             horizontalalignment='left', verticalalignment='top',
             fontsize=35)
 
-    # this will save the figure as a high-res png in the output path. 
+    # this will save the figure as a high-res png in the output path.
     filepath = output_path / (only_year + '_price.png')
     chart = fig.get_figure()
     chart.savefig(filepath, dpi=300)
@@ -155,7 +156,3 @@ for year in list_of_years:
 
 # creates a gif file from all the maps. used 'brew install imagemagick'- at the moment needs to be entered in terminal#
 #os.system('convert -delay 60 -loop 0 *jpg house_price_timelapse.gif')
-
-
-
-
